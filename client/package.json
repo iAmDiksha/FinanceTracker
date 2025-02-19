@@ -11,8 +11,10 @@
   },
   "dependencies": {
     "@clerk/clerk-react": "^5.22.13",
+    "@table-library/react-table-library": "^4.1.12",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-modal": "^3.16.3",
     "react-router-dom": "^7.1.5"
   },
   "devDependencies": {

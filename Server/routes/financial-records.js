@@ -5,7 +5,7 @@ const router = express.Router();
 
 router.get('/getAllByUserID/:userID', async (req, res) => {
     try {
-        const financialRecords = await FinancialRecordModel.find({ userID: req.params.userID });
+        const financialRecords = await FinancialRecordModel.find({userId: req.params.userID});
         if(financialRecords.length === 0) {
             return res.status(404).json({ message: "No financial records found for this user" });
         }
